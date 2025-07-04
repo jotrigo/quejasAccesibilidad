@@ -43,6 +43,12 @@ cd quejasAccesibilidad
 pip install -r requirements.txt
 ```
 
+Las dependencias incluyen:
+- `pandas>=1.5.0` - Para manipulación de datos
+- `openai>=1.0.0` - Para la API de OpenAI
+- `openpyxl>=3.0.0` - Para leer archivos Excel (.xlsx)
+- `xlrd>=2.0.0` - Para leer archivos Excel (.xls)
+
 3. **Configurar API Key de OpenAI:**
 ```bash
 export OPENAI_API_KEY='tu-api-key-aqui'
@@ -132,7 +138,7 @@ El sistema identifica quejas sobre:
 
 ### Error: "No module named 'pandas'"
 ```bash
-pip install pandas openpyxl openai
+pip install -r requirements.txt
 ```
 
 ### Error: "OPENAI_API_KEY not set"
@@ -164,28 +170,6 @@ Cambia `gpt-4o-mini` por otro modelo disponible en tu cuenta de OpenAI.
 - **Quejas de accesibilidad identificadas**: 1946
 - **Tasa de detección**: 92.9%
 - **Archivos procesados**: 2 (2022 y 2023)
-
-## 🤝 Contribuir
-
-1. Fork el repositorio
-2. Crea una rama para tu feature (`git checkout -b feature/nueva-funcionalidad`)
-3. Commit tus cambios (`git commit -am 'Agregar nueva funcionalidad'`)
-4. Push a la rama (`git push origin feature/nueva-funcionalidad`)
-5. Crea un Pull Request
-
-## 📄 Licencia
-
-Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
-
-## 👥 Autor
-
-- **Joaquín Trigo** - [GitHub](https://github.com/jotrigo)
-
-## 📞 Contacto
-
-Para preguntas o sugerencias sobre el proyecto, puedes:
-- Abrir un issue en GitHub
-- Contactar directamente al autor
 
 ---
 
