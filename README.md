@@ -121,27 +121,6 @@ El sistema identifica quejas sobre:
 - **Rampas digitales**: Dispositivos de apoyo
 - **Señalización**: Braille, pictogramas
 
-## 💡 Consideraciones Importantes
-
-- **Costo**: Cada análisis consume tokens de OpenAI (aproximadamente $0.001 por análisis)
-- **Rate Limiting**: El script incluye pausas para evitar límites de API
-- **Precisión**: El modelo está entrenado específicamente para detectar dispositivos de accesibilidad
-
-## 🔧 Solución de Problemas
-
-### Error: "No module named 'pandas'"
-```bash
-pip install -r requirements.txt
-```
-
-### Error: "OPENAI_API_KEY not set"
-```bash
-export OPENAI_API_KEY='tu-api-key-aqui'
-```
-
-### Error al leer archivo Excel
-- Verifica que los archivos `Casos 2022.xlsx` y `Casos 2023.xlsx` existen
-- Asegúrate de tener instalado `openpyxl` para archivos .xlsx
 
 ## 🛠️ Personalización Avanzada
 
