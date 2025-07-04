@@ -43,12 +43,6 @@ cd quejasAccesibilidad
 pip install -r requirements.txt
 ```
 
-Las dependencias incluyen:
-- `pandas>=1.5.0` - Para manipulación de datos
-- `openai>=1.0.0` - Para la API de OpenAI
-- `openpyxl>=3.0.0` - Para leer archivos Excel (.xlsx)
-- `xlrd>=2.0.0` - Para leer archivos Excel (.xls)
-
 3. **Configurar API Key de OpenAI:**
 ```bash
 export OPENAI_API_KEY='tu-api-key-aqui'
@@ -164,12 +158,7 @@ Modifica la lista `ITEMS_BUSQUEDA` en el script para incluir nuevos dispositivos
 
 Cambia `gpt-4o-mini` por otro modelo disponible en tu cuenta de OpenAI.
 
-## 📊 Estadísticas del Proyecto
 
-- **Total de casos analizados**: 2095
-- **Quejas de accesibilidad identificadas**: 1946
-- **Tasa de detección**: 92.9%
-- **Archivos procesados**: 2 (2022 y 2023)
 
 ---
 
