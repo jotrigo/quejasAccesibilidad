@@ -125,7 +125,6 @@ El sistema identifica quejas sobre:
 
 - **Costo**: Cada análisis consume tokens de OpenAI (aproximadamente $0.001 por análisis)
 - **Rate Limiting**: El script incluye pausas para evitar límites de API
-- **Límite de texto**: Las conversaciones se limitan a 2000 caracteres para optimizar costos
 - **Precisión**: El modelo está entrenado específicamente para detectar dispositivos de accesibilidad
 
 ## 🔧 Solución de Problemas
